@@ -1,0 +1,97 @@
+header {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+.header-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  height: 100%;
+}
+
+/* Logo */
+.logo-link {
+  font-family: "tasa_orbiter_textbold";
+  font-size: 1.5rem;
+  color: #000000;
+  gap: 0.5rem;
+}
+
+.navigation-bar {
+  flex: 1 1 auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.menu-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  color: #ce3b3b;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  margin-top: -10px;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent #f4f4f4 transparent;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown-menu .find {
+  margin-bottom: 1rem;
+}
+
+.dropdown-menu .find input {
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.discover-popular-menu {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header-social-media {
+  gap: 1rem;
+}
+
+.social-media-link > svg {
+  font-size: 1.5rem;
+  color: #505050;
+  transition: color 0.3s ease;
+}
+
+.social-media-link > svg:hover {
+  font-size: 1.5rem;
+  color: #ce3b3b;
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "tasa_orbiter_deckbold";
+  src: url("tasaorbiterdeck-bold-webfont.woff2") format("woff2"), url("tasaorbiterdeck-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_deckmedium";
+  src: url("tasaorbiterdeck-medium-webfont.woff2") format("woff2"), url("tasaorbiterdeck-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_deckregular";
+  src: url("tasaorbiterdeck-regular-webfont.woff2") format("woff2"), url("tasaorbiterdeck-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_decksemibold";
+  src: url("tasaorbiterdeck-semibold-webfont.woff2") format("woff2"), url("tasaorbiterdeck-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_displayblack";
+  src: url("tasaorbiterdisplay-black-webfont.woff2") format("woff2"), url("tasaorbiterdisplay-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_displaybold";
+  src: url("tasaorbiterdisplay-bold-webfont.woff2") format("woff2"), url("tasaorbiterdisplay-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_displaymedium";
+  src: url("tasaorbiterdisplay-medium-webfont.woff2") format("woff2"), url("tasaorbiterdisplay-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_displayregular";
+  src: url("tasaorbiterdisplay-regular-webfont.woff2") format("woff2"), url("tasaorbiterdisplay-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_displaysemibold";
+  src: url("tasaorbiterdisplay-semibold-webfont.woff2") format("woff2"), url("tasaorbiterdisplay-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_textbold";
+  src: url("tasaorbitertext-bold-webfont.woff2") format("woff2"), url("tasaorbitertext-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_textmedium";
+  src: url("tasaorbitertext-medium-webfont.woff2") format("woff2"), url("tasaorbitertext-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tasa_orbiter_textregular";
+  src: url("tasaorbitertext-regular-webfont.woff2") format("woff2"), url("tasaorbitertext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

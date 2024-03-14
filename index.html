@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/images/icon.png" type="image/x-icon" />
+    <title>Movie Box - Watch Your Favorite Movie Or Tv Show</title>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="/assets/fontawesome/all.min.css" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="header-logo">
+            <a class="logo-link flex-items-center" href="/">
+              <img src="./assets/images/icon.png" />
+              Movie Box
+            </a>
+          </div>
+          <nav class="navigation-bar">
+            <ul class="menu-list flex-items-center">
+              <li class="menu-item"><a class="menu-link" href="/home">Home</a></li>
+              <li class="menu-item">
+                <div class="menu-link">
+                  Movies
+                  <div class="dropdown-menu">
+                    <div class="find">
+                      <input type="text" name="find" placeholder="what ara search?" />
+                    </div>
+                    <div class="discover-popular-menu flex-items-center">
+                      <div class="discover">discover</div>
+                      <div class="popular">popular now</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item"><a class="menu-link">TV Shows</a></li>
+              <li class="menu-item"><a class="menu-link">Favorite</a></li>
+            </ul>
+          </nav>
+          <div class="header-social-media flex-items-center">
+            <a class="social-media-link facebook" href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="social-media-link instagram" href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="social-media-link x-twitter" href="">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="social-media-link telegram" href="">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <style>
+        .hero {
+          position: absolute;
+          z-index: -1;
+          inset: 0;
+          background-image: url(/assets/images/poster.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100vh;
+          width: 100vw;
+        }
+      </style>
+    </section>
+    <!-- Font Awesome Script -->
+    <script src="/assets/fontawesome/all.min.js"></script>
+  </body>
+</html>

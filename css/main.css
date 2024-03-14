@@ -1,0 +1,48 @@
+@import url(components/header.css);
+/* Import Fonts */
+@import url(/assets/fonts/tasa-orbiter/tasa-orbiter-stylesheet.css.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "tasa_orbiter_textbold"; */
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}
